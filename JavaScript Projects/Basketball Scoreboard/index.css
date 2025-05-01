@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.scoreboard {
+    background-color: #192340;   
+    width: 60%;                  
+    max-width: 800px;           
+    margin: 40px auto;          
+    border-radius: 10px;   
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    text-align: center; 
+    font-family: Verdana, sans-serif;
+    color: #EEEEEE; 
+}
+
+.scorebox {
+    background-color: black;        
+    display: flex;                  
+    justify-content: center;        
+    align-items: center;            
+    border-radius: 5px;             
+    width: 65px;
+    height: auto;                    
+    margin: 0 auto 10px auto;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #f94f6d;
+    text-align: center;                        
+}
+
+.button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cbutton{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clearbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
