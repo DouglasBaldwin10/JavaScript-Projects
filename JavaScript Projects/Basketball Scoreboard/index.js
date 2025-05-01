@@ -33,4 +33,10 @@ function threeguest() {
 
 function homeclear() {
     homescore = 0
-    document.getElementById("homescore").
+    document.getElementById("homescore").textContent = homescore;
+}
+
+function guestclear() {
+    guestscore = 0
+    document.getElementById("guestscore").textContent = guestscore;
+}
